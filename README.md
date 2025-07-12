@@ -64,7 +64,7 @@ App Architecture
 
 
 📧 Email Generator Demo – 2
-![img.png](imgs/demo_2.png)
+![img.png](app/imgs/demo_2.png)
 
 
 ---
