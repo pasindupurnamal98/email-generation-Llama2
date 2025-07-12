@@ -1,42 +1,83 @@
-# Byte-compiled / optimized / DLL files
+# ===============================
+# Python Byte-code and C extensions
+# ===============================
 __pycache__/
 *.py[cod]
 *$py.class
-
-# C extensions
 *.so
 
-# VS Code settings
-.vscode/
-*.code-workspace
-
-# Jupyter Notebook checkpoints
-.ipynb_checkpoints/
-
-# Notebook outputs (optional — uncomment if you want to trim .ipynb outputs in version control)
-# *.ipynb
-
-# Python virtual environments
+# ===============================
+# Virtual environments
+# ===============================
 .venv/
 env/
 venv/
 ENV/
 
-# pip or conda environment files (in case you want to ignore lock/log files)
-pip-log.txt
-conda-meta/
-
+# ===============================
 # Python environment artifacts
+# ===============================
 *.egg-info/
 dist/
 build/
 *.egg
+pip-log.txt
+conda-meta/
 
-# Log files
+# ===============================
+# VS Code settings
+# ===============================
+.vscode/
+*.code-workspace
+
+# ===============================
+# Jupyter files
+# ===============================
+.ipynb_checkpoints/
+.profile_default/
+.ipython/
 *.log
 logs/
+.history
 
-# LLM & model weights directories
+# Optional – Uncomment to ignore notebook files completely (disable if collaborating with notebooks)
+# *.ipynb
+
+# ===============================
+# OS-specific files
+# ===============================
+.DS_Store
+Thumbs.db
+
+# ===============================
+# Shell and temporary files
+# ===============================
+*.sh~
+*.swp
+*.bak
+*~
+
+# ===============================
+# Hugging Face / Transformers cache
+# ===============================
+.cache/
+huggingface/
+transformers_cache/
+__pytorch__/
+
+# ===============================
+# LangChain / Vector store / DB files
+# ===============================
+.chroma/
+*.faiss
+*.sqlite
+*.db
+index_store/
+.db-ignore
+
+# ===============================
+# LLM & Model weights
+# ===============================
 models/
 checkpoints/
 *.ckpt
@@ -44,31 +85,17 @@ checkpoints/
 *.bin
 *.safetensors
 
-# Local cache (e.g. Hugging Face or transformers)
-.cache/
-huggingface/
-transformers_cache/
-__pytorch__/
+# ===============================
+# 🔐 Secrets and environment variables
+# ===============================
+.env
+.env.*
+*.secret
+secrets.json
+credentials.json
 
-# LangChain related
-.db-ignore
-.chroma/
-*.faiss
-index_store/
-*.sqlite
-*.db
-
-# System files
-.DS_Store
-Thumbs.db
-
-# IPython history
-.history
-
-# Jupyter runtime
-.profile_default/
-.ipython/
-jupyter_notebook_config.py
-
-# Line endings / shell files
-*.sh~
+# ===============================
+# Node/npm (if you're using JS tools or LangServe UI)
+# ===============================
+node_modules/
+*.lock
