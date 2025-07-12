@@ -54,6 +54,18 @@ email-generation-llama2/
 
 > 🖼️ **Visuals**  
 - 📌 Check out the app **architecture** and **demo screenshots** in `/app/imgs`.
+- 
+- ⚙️ Architecture
+App Architecture
+![img.png](app/imgs/architecture.png)
+
+📧 Email Generator Demo – 1
+![img.png](imgs/)
+
+
+📧 Email Generator Demo – 2
+![img.png](imgs/architecture.png)
+
 
 ---
 
