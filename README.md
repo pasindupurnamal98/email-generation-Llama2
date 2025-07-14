@@ -60,11 +60,11 @@ App Architecture
 ![img.png](app/imgs/architecture.png)
 
 📧 Email Generator Demo – 1
-![img.png](app/imgs/Screenshot 2025-07-12 105927.png)
+![img.png](app/imgs/demo_1.png)
 
 
 📧 Email Generator Demo – 2
-![img.png](imgs/architecture.png)
+![img.png](app/imgs/demo_2.png)
 
 
 ---
